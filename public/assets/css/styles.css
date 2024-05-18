@@ -11,23 +11,55 @@ body {
 
 /*Header styling*/
 header {
+    display: flex;
     width: 100%;
-    height: 25vh;
     background-color: aliceblue;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 header button {
     margin: 2px;
-    width: 100px;
-    padding: 5px;
+    width: fit-content;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: brown;
+    font-size: 1.6rem;
+}
+
+header button:hover {
+    color: lightcoral;
+    transition: all 0.3s ease-in-out;
 }
 
 header img {
+    position: fixed;
+    top: 18px;
+    left: 10px;
     width: 50px;
 }
 
 li {
     list-style-type: none;
+}
+
+.nav {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Contents */
+#content {
+    padding: 20px;
+}
+
+
+/* Styling for the footer */
+footer {
+    display: grid;
+    position: absolute;
+    bottom: 0;
 }
