@@ -1,0 +1,46 @@
+:root {
+    color: antiquewhite;
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: bisque;
+    box-shadow: 5px 10px 10px gray;
+    
+}
+
+ul {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+header button {
+    background-color: beige;
+    width: 150px;
+    border: 0.5px solid rgb(199, 245, 130);
+    padding: 5px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: rgb(209, 252, 143);
+    border-radius: 7px;
+    font-size: 1.4em;
+    color: palevioletred;
+    
+}
