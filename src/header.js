@@ -8,7 +8,7 @@ export const header = (() => {
     let menuli = createElements("li", 'menuli');
     let aboutli = createElements("li", 'aboutli');
     let btnHome = createElements("button", 'btnhome', "Home");
-    let btnMenu = createElements("button", "Menu", 'btnmenu');
+    let btnMenu = createElements("button", 'btnmenu', "Menu");
     let btnAbout = createElements("button", 'btnabout', "About");
     
     attachElements(homeli, btnHome);
