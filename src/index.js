@@ -1,10 +1,7 @@
 import "./assets/css/styles.css";
 
-import { header } from "./header.js";
-
-console.log(header());
-
+import { render } from "./renderpage.js";
 
 let contents = document.querySelector('#content');
 
-contents.appendChild(header())
+contents.appendChild(render)

@@ -1,5 +1,5 @@
 //Helper functions for creating and setting elements on DOM
-export const createElements = (element, text = "", id = "") => {
+export const createElements = (element, id = "", text = "") => {
 
     let create = document.createElement(element);
 

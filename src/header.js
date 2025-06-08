@@ -1,15 +1,15 @@
 import { createElements, attachElements } from "./create-elements.js";
 
-export const header = () => {
-    let header = createElements("header", '', 'header');
+export const header = (() => {
+    let header = createElements("header", 'header');
     let ul = createElements("ul");
     let nav = createElements("nav");
-    let homeli = createElements("li", '', 'homeli');
-    let menuli = createElements("li",  '', 'menuli');
-    let aboutli = createElements("li",  '', 'aboutli');
-    let btnHome = createElements("button", "Home", 'btnhome');
+    let homeli = createElements("li", 'homeli');
+    let menuli = createElements("li", 'menuli');
+    let aboutli = createElements("li", 'aboutli');
+    let btnHome = createElements("button", 'btnhome', "Home");
     let btnMenu = createElements("button", "Menu", 'btnmenu');
-    let btnAbout = createElements("button", "About", 'btnabout');
+    let btnAbout = createElements("button", 'btnabout', "About");
     
     attachElements(homeli, btnHome);
     attachElements(menuli, btnMenu);
@@ -19,4 +19,4 @@ export const header = () => {
     attachElements(header, nav);
 
     return header;
-}
+})();
