@@ -2,10 +2,14 @@ import { header } from "./header.js";
 import { createElements, attachElements } from "./create-elements.js";
 import { home } from "./homepage.js";
 
-export const render = (() => {
-    let element = createElements('div');
+const contents = document.querySelector('#content');
+const element = createElements('div');
 
-    attachElements(element, [header, home])
+export const render = (() => {    
+
+    attachElements(element, [header, home]);
 
     return element;
 })();
+
+contents.appendChild(render)
