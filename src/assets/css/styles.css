@@ -8,6 +8,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: antiquewhite;
 }
 
 .header {
@@ -16,7 +17,7 @@ body {
     width: 100%;
     background-color: bisque;
     box-shadow: 5px 10px 10px gray;
-    padding: 7px;
+    padding: 15px;
     
 }
 
@@ -112,6 +113,7 @@ header button:hover {
 
 .menuimage {
     width: 40%;
+    border-radius: 20px;
     border-right: 4px solid brown;
 }
 
@@ -142,4 +144,48 @@ header button:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
     margin: 10px 0 10px 0;
+}
+.aboutusmaincont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    margin: 0 0 20px 0;
+}
+
+.story {
+    width: 70%;
+}
+
+.whatwestandfortitle, .ourstorytitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 30px 0 0 0;
+    text-decoration: underline;
+}
+
+
+.aboutpagediv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboutusmaincont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    padding: 50px 0 30px 0 ;
+    margin: 20px 0 0 0;
 }

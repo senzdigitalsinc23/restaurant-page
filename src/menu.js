@@ -30,11 +30,13 @@ let itemOne = (() => {
     let fufuAndLightSoup = createElements('div', 'fufulightsoup', '2. Fufu With Light Soup - Ghs50.00');
     let fufuAndPalmnutSoup = createElements('div', 'fufupalmsoup', '3. Fufu With Palmnut Soup - Ghs50.00');
     let fufuAndGroundnutSoup = createElements('div', 'fufugroundnutsoup', '4. Fufu With Light Soup - Ghs50.00')
+    let friedrice = createElements('div', 'friedrice', '5. Fried Rice & Chicken - Ghs60.00');
+    let jellofrice = createElements('div', 'jellofrice', '6. Jellof Rice & Chicken - Ghs60.00')
 
 
     attachElements(itemsdiv, [
         menu, itemTitle, riceAndStew, fufuAndLightSoup,
-        fufuAndPalmnutSoup, fufuAndGroundnutSoup
+        fufuAndPalmnutSoup, fufuAndGroundnutSoup,friedrice, jellofrice 
     ])
 
     return itemsdiv;
@@ -47,7 +49,6 @@ let itemTwo = (() => {
     let riceAndStew = createElements('div', 'riceandstew', '1. Baicon Burgar - Ghs98.00');
     let fufuAndLightSoup = createElements('div', 'springrolls', '2. East West Spring Rolls - Ghs60.00');
     let fufuAndPalmnutSoup = createElements('div', 'paneersteak', '3. Paneer Steak - Ghs60.00');
-    let fufuAndGroundnutSoup = createElements('div', 'roastsalad', '4. Roast Lamb Salad - Ghs50.00')
     let roastedturkey = createElements('div', 'roastedturkey', '4. Roast Turkey With Cranberry Sauce - Ghs50.00')
 
     attachElements(itemsdiv, [
